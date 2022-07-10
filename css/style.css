@@ -1,0 +1,21 @@
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@import url(bootstrap.css);
+.main_banner {
+  height: 100vh; }
+  .main_banner .slider .item {
+    background-image: url("../img/011.jpg");
+    background-size: cover;
+    height: 100vh; }
+    .main_banner .slider .item.item2 {
+      background-image: url("../img/012.jpg"); }
+    .main_banner .slider .item.item3 {
+      background-image: url("../img/013.jpg"); }
+    .main_banner .slider .item.item4 {
+      background-image: url("../img/014.jpg"); }
+
+.nav-item:first-of-type .nav-link {
+  border: solid 1px white;
+  border-radius: 40px; }
+
+/*# sourceMappingURL=style.css.map */

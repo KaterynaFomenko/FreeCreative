@@ -1,0 +1,31 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "bootstrap.css";
+.main_banner{
+  height: 100vh;
+  .slider{
+    .item{
+      background-image: url("../img/011.jpg");
+      background-size: cover;
+      height: 100vh;
+      &.item2{
+        background-image: url("../img/012.jpg");
+      }
+      &.item3{
+        background-image: url("../img/013.jpg");
+      }
+      &.item4{
+        background-image: url("../img/014.jpg");
+
+      }
+    }
+  }
+}
+.nav-item{
+  &:first-of-type{
+  .nav-link {
+    border: solid 1px white;
+    border-radius: 40px;
+  }
+  }
+}
