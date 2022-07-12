@@ -1,6 +1,9 @@
 @import url(owl.carousel.css);
 @import url(owl.theme.default.css);
 @import url(bootstrap.css);
+header {
+  z-index: 2; }
+
 .main_banner {
   height: 100vh; }
   .main_banner .slider .item {
@@ -17,5 +20,43 @@
 .nav-item:first-of-type .nav-link {
   border: solid 1px white;
   border-radius: 40px; }
+
+.description {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 2; }
+  .description a {
+    background: #FFFFFF;
+    border-radius: 40px; }
+
+.container h3 {
+  font-family: "20 Kopeek", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818; }
+.container h1 {
+  font-family: '20 Kopeek Book', sans-serif;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818; }
+.container h4 {
+  font-family: '20 Kopeek', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818; }
+.container p {
+  font-family: '20 Kopeek', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818; }
 
 /*# sourceMappingURL=style.css.map */
