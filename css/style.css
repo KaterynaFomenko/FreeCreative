@@ -3,6 +3,13 @@
 @import url(bootstrap.css);
 header {
   z-index: 2; }
+  header .conteiner .nav h5 {
+    font-family: '20 Kopeek', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: white; }
 
 .main_banner {
   height: 100vh; }
@@ -10,12 +17,18 @@ header {
     background-image: url("../img/011.jpg");
     background-size: cover;
     height: 100vh; }
-    .main_banner .slider .item.item2 {
-      background-image: url("../img/012.jpg"); }
-    .main_banner .slider .item.item3 {
-      background-image: url("../img/013.jpg"); }
-    .main_banner .slider .item.item4 {
-      background-image: url("../img/014.jpg"); }
+  .main_banner .slider .item2 {
+    background-image: url("../img/012.jpg");
+    background-size: cover;
+    height: 100vh; }
+  .main_banner .slider .item3 {
+    background-image: url("../img/013.jpg");
+    background-size: cover;
+    height: 100vh; }
+  .main_banner .slider .item4 {
+    background-image: url("../img/014.jpg");
+    background-size: cover;
+    height: 100vh; }
 
 .nav-item:first-of-type .nav-link {
   border: solid 1px white;
@@ -53,6 +66,51 @@ header {
   color: #181818; }
 .container p {
   font-family: '20 Kopeek', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818; }
+
+.amperia p {
+  font-family: '20 Kopeek', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818; }
+.amperia h2 {
+  font-family: '20 Kopeek Book',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818; }
+.amperia a {
+  border: solid 1px black;
+  border-radius: 35px; }
+
+.p-blue {
+  background-color: #005cbf;
+  align-items: stretch;
+  color: white; }
+  .p-blue h3 {
+    font-family: '20 Kopeek Book', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 110%;
+    color: #FFFFFF; }
+  .p-blue p {
+    font-family: '20 Kopeek', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: white; }
+
+.p-white {
+  font-family: '20 Kopeek';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

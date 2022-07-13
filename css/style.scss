@@ -4,6 +4,18 @@
 
 header{
   z-index: 2;
+  .conteiner{
+    .nav{
+      h5{
+        font-family: '20 Kopeek', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        color: white;
+      }
+    }
+  }
 }
 .main_banner{
   height: 100vh;
@@ -11,20 +23,25 @@ header{
     .item{
       background-image: url("../img/011.jpg");
       background-size: cover;
-      height: 100vh;
-      &.item2{
+      height: 100vh;}
+    .item2{
         background-image: url("../img/012.jpg");
+        background-size: cover;
+        height: 100vh;
       }
-      &.item3{
+    .item3{
         background-image: url("../img/013.jpg");
+        background-size: cover;
+        height: 100vh;
       }
-      &.item4{
+    .item4{
         background-image: url("../img/014.jpg");
-
+        background-size: cover;
+        height: 100vh;
       }
     }
   }
-}
+
 .nav-item{
   &:first-of-type{
   .nav-link {
@@ -77,4 +94,64 @@ header{
     line-height: 140%;
     color: #181818;
   }
+}
+.amperia{
+  p{
+    font-family: '20 Kopeek', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+
+  }
+  h2{
+    font-family: '20 Kopeek Book',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 100%;
+    color: #181818;
+
+
+  }
+  a{
+    border: solid 1px black;
+    border-radius: 35px;
+  }
+
+}
+.p-blue{
+  background-color: #005cbf;
+  align-items: stretch;
+  color: white;
+
+  h3 {
+    font-family: '20 Kopeek Book', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 110%;
+    color: #FFFFFF;
+
+  }
+  p{
+    font-family: '20 Kopeek', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: white;
+
+  }
+
+}
+.p-white{
+  font-family: '20 Kopeek';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+
 }
